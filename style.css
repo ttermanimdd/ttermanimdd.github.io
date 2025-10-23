@@ -44,7 +44,7 @@ img {
     margin: 0;
 }
 .site-header h1 a {
-    color: #333;
+    color: #000000;
     text-decoration: none;
 }
 .site-header p {
@@ -122,5 +122,6 @@ img {
     font-size: 0.9em;
 
 }
+
 
 
