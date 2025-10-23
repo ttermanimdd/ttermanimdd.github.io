@@ -35,18 +35,16 @@ img {
 
 /* Шапка сайта */
 .site-header {
-    background-color: #f4f4f4; /* Отличительный цвет блока */
+    background-color: #f4f4f4; 
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
 .site-header h1 {
     margin: 0;
+    color: #000000; /* Мы применили цвет прямо к заголовку h1 */
 }
-.site-header h1 {
-    color: #000000;
-    text-decoration: none;
-}
+/* Строчку про .site-header h1 a можно удалить, если она осталась */
 .site-header p {
     margin: 5px 0 0;
     color: #666;
@@ -122,6 +120,7 @@ img {
     font-size: 0.9em;
 
 }
+
 
 
 
