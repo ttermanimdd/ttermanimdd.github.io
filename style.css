@@ -44,7 +44,7 @@ img {
     margin: 0;
 }
 .site-header h1 a {
-    color: #333;
+    color: #1a1a1a;
     text-decoration: none;
 }
 .site-header p {
@@ -120,4 +120,5 @@ img {
 .site-footer p {
     margin: 10px 0 0;
     font-size: 0.9em;
+
 }
