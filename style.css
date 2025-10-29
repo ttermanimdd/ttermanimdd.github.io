@@ -131,6 +131,48 @@ img {
 }
 
 
+/* --- Стили для трехколоночного макета --- */
+
+/* Главный контейнер для трех колонок */
+.main-layout {
+    display: flex; /* Включаем магию Flexbox! */
+    justify-content: center; /* Центрируем все колонки */
+    gap: 25px; /* Пространство между колонками */
+    max-width: 1200px; /* Общая ширина макета */
+    margin: 20px auto; /* Центрируем весь макет на странице */
+    padding: 0 20px;
+}
+
+/* Центральная колонка с постами */
+.main-content {
+    width: 55%; /* Занимает 55% ширины */
+    min-width: 400px; /* Чтобы не становилась слишком узкой */
+}
+
+/* Общий стиль для боковых колонок */
+.sidebar {
+    width: 22.5%; /* Каждая занимает по 22.5% ширины */
+    background-color: #ffffff; /* Белый фон (можешь поменять) */
+    padding: 20px;
+    border: 1px solid #e1e1e1; /* Легкая рамка */
+}
+
+/* Стили для контента внутри боковых колонок */
+.sidebar h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none; /* Убираем точки у списка */
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
 
 
 
