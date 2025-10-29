@@ -7,8 +7,9 @@ body {
     color: #000000; /* <--- ИЗМЕНЕНО НА ЧЕРНЫЙ */
 }
 
+/* Новый, более широкий блок .container */
 .container {
-    max-width: 900px; /* Сделали контейнер на 100px шире */
+    max-width: 900px;
     margin: 20px auto;
     padding: 0 20px;
 }
@@ -67,10 +68,10 @@ img {
     font-weight: bold;
 }
 
-/* Полный пост */
+/* Новый блок .full-post с отступами */
 .full-post {
     background-color: #fff;
-    padding: 30px; /* 30 пикселей отступа со всех четырех сторон */
+    padding: 30px;
 }
 .caption {
     text-align: center;
@@ -120,6 +121,7 @@ img {
     font-size: 0.9em;
 
 }
+
 
 
 
