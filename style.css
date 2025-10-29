@@ -35,7 +35,7 @@ img {
 
 /* Шапка сайта */
 .site-header {
-    background-color: #f4f4f4; 
+    background-color: #FFBB00; 
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -120,6 +120,7 @@ img {
     font-size: 0.9em;
 
 }
+
 
 
 
