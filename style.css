@@ -138,7 +138,7 @@ img {
     display: flex; /* Включаем магию Flexbox! */
     justify-content: center; /* Центрируем все колонки */
     gap: 25px; /* Пространство между колонками */
-    max-width: 1200px; /* Общая ширина макета */
+    max-width: 1600px; /* Общая ширина макета */
     margin: 20px auto; /* Центрируем весь макет на странице */
     padding: 0 20px;
 }
@@ -173,6 +173,7 @@ img {
 .sidebar ul li {
     margin-bottom: 10px;
 }
+
 
 
 
