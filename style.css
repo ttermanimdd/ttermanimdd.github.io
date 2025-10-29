@@ -14,6 +14,14 @@ body {
     padding: 0 20px;
 }
 
+
+/* Стиль для заголовков секций */
+.container h2 {
+    color: #FFFFFF; /* Можешь выбрать любой цвет, который тебе нравится */
+}
+
+
+
 a {
     color: #007bff;
     text-decoration: none;
@@ -121,6 +129,7 @@ img {
     font-size: 0.9em;
 
 }
+
 
 
 
