@@ -9,7 +9,7 @@ body {
 
 /* Новый, более широкий блок .container */
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
 }
@@ -121,6 +121,7 @@ img {
     font-size: 0.9em;
 
 }
+
 
 
 
