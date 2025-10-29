@@ -70,7 +70,7 @@ img {
 /* Полный пост */
 .full-post {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 30px; /* 30 пикселей отступа со всех четырех сторон */
 }
 .caption {
     text-align: center;
@@ -120,6 +120,7 @@ img {
     font-size: 0.9em;
 
 }
+
 
 
 
