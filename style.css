@@ -52,7 +52,7 @@ img {
     background-color: #003D47; 
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    
 }
 .site-header h1 {
     margin: 0;
@@ -200,6 +200,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
