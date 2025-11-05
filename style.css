@@ -44,7 +44,7 @@ img {
 
 /* Шапка сайта */
 .site-header {
-    background-color: #FFAE00; 
+    background-color: ##003D47; 
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -173,6 +173,7 @@ img {
 .sidebar ul li {
     margin-bottom: 10px;
 }
+
 
 
 
