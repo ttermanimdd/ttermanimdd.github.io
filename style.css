@@ -3,7 +3,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    background-color: #330099;
+    background-color: #424242;
     color: #000000; /* <--- ИЗМЕНЕНО НА ЧЕРНЫЙ */
 }
 
@@ -200,6 +200,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
