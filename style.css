@@ -119,7 +119,7 @@ img {
 
 /* Подвал сайта */
 .site-footer {
-    background-color: #14002E; /* Отличительный цвет блока */
+    background-color: #000000; /* Отличительный цвет блока */
     color: #eee;
     text-align: center;
     padding: 20px;
@@ -200,6 +200,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
