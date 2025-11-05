@@ -51,7 +51,7 @@ img {
 }
 .site-header h1 {
     margin: 0;
-    color: #000000; /* Мы применили цвет прямо к заголовку h1 */
+    color: #00CEFF; /* Мы применили цвет прямо к заголовку h1 */
 }
 /* Строчку про .site-header h1 a можно удалить, если она осталась */
 .site-header p {
@@ -173,6 +173,7 @@ img {
 .sidebar ul li {
     margin-bottom: 10px;
 }
+
 
 
 
