@@ -97,7 +97,7 @@ img {
 }
 .caption {
     text-align: center;
-    color: #777;
+    color: #000000;
     font-style: italic;
     font-size: 0.9em;
     margin-top: -10px;
@@ -217,6 +217,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
