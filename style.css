@@ -97,7 +97,7 @@ img {
     background-color: #91FF9A;
     color: #000000; /* <--- Цвет текста тела постов на страницах постов */
     padding: 30px;
-    border-radius: 9px;
+    border-radius: 12px;
 }
 .caption {
     text-align: center;
@@ -173,7 +173,7 @@ img {
     background-color: #002E00; /* Белый фон (можешь поменять) */
     padding: 20px;
     color: #FFFFFF; /* Цвет простого текста в боковых колонках */
-    border-radius: 9px; 
+    border-radius: 12px; 
 }
 
 
@@ -222,6 +222,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
