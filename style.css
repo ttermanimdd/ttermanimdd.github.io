@@ -81,7 +81,7 @@ img {
     margin-bottom: 20px;
 }
 .post-meta {
-    color: #888;
+    color: #696969;
     font-size: 0.9em;
 }
 .read-more {
@@ -217,6 +217,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
