@@ -49,7 +49,7 @@ img {
 
 /* Шапка сайта */
 .site-header {
-    background-color: #000000; 
+    background-color: #001F04; 
     padding: 20px;
     text-align: center;
     
@@ -208,6 +208,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
