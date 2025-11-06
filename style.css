@@ -80,6 +80,7 @@ img {
     border: 1px solid #e1e1e1;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 8px; /* <--- Скругление углов колонок! */
 }
 .post-meta {
     color: #696969;
@@ -97,6 +98,7 @@ img {
     background-color: #91FF9A;
     color: #000000; /* <--- Цвет текста тела постов на страницах постов */
     padding: 30px;
+    border-radius: 8px;
 }
 .caption {
     text-align: center;
@@ -172,6 +174,7 @@ img {
     background-color: #002E00; /* Белый фон (можешь поменять) */
     padding: 20px;
     color: #FFFFFF; /* Цвет простого текста в боковых колонках */
+    border-radius: 8px; 
 }
 
 
@@ -220,6 +223,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
