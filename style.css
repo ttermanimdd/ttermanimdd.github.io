@@ -83,7 +83,7 @@ img {
 
 /* Новый блок .full-post с отступами */
 .full-post {
-    background-color: #fff;
+    background-color: #91FF9A;
     padding: 30px;
 }
 .caption {
@@ -208,6 +208,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
