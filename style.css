@@ -56,13 +56,14 @@ img {
 }
 .site-header h1 {
     margin: 0;
-    color: #FFFFFF; /* Мы применили цвет прямо к заголовку h1 */
-    
-
-    .site-header h1 a {
-    color: #FFFFFF; /* Цвет надписи Matter and Mind на страницах постов */
-    text-decoration: none; /* Это уберет подчеркивание, если оно вдруг появится */
+    color: #eeeeee; /* Это правило для главной страницы */
 }
+
+.site-header h1 a {
+    color: #eeeeee; /* Цвет надписи Matter and Mind на страницах постов */
+    text-decoration: none;
+}
+
 
 
 }
@@ -216,6 +217,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
