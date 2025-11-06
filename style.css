@@ -76,6 +76,7 @@ img {
 /* Анонс поста на главной */
 .post-preview {
     background-color: #91FF9A;
+    color: #000000; /* Цвета тела поста в анонсе */
     border: 1px solid #e1e1e1;
     padding: 20px;
     margin-bottom: 20px;
@@ -217,6 +218,7 @@ img {
         min-width: unset; /* Сбрасываем минимальную ширину, она больше не нужна */
     }
 }
+
 
 
 
