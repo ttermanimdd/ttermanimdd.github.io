@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Общие стили */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     line-height: 1.6;
     margin: 0;
     background-color: #000F00;
@@ -248,4 +250,5 @@ img {
         padding: 15px; /* Уменьшаем отступы на мобильных, чтобы дать тексту больше места */
     }
 }
+
 
