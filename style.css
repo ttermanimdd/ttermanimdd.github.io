@@ -3,10 +3,10 @@
 /* Общие стили */
 
 
-body, h1, h2, h3, p, a, li, span, div {
-   font-family: "Roboto", sans-serif; /* НЕ ЗАБУДЬ ВСТАВИТЬ СЮДА НАЗВАНИЕ СВОЕГО ШРИФТА! */
+/* --- ГЛАВНОЕ ПРАВИЛО ШРИФТА (С УСИЛЕНИЕМ) --- */
+body, h1, h2, h3, h4, h5, h6, p, a, li, span, div, article, aside, main, header, footer {
+    font-family: "Open Sans", sans-serif; !important; /* <--- ДОБАВИЛИ !important И БОЛЬШЕ ТЕГОВ */
 }
-
 
 body {
     line-height: 1.6;
@@ -231,42 +231,33 @@ img {
 
 /* --- Ступень 2: Для ВЕРТИКАЛЬНЫХ смартфонов --- */
 /* Это правило сработает только на экранах шириной 768px или меньше */
-@media (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
-    /* 1. Делаем макет вертикальным */
-    .main-layout {
-        flex-direction: column;
-    }
 
-    /* 2. Растягиваем колонки на всю ширину */
-    .main-content,
-    .sidebar {
-        width: 100%;
-        min-width: unset;
-    }
-
-    /* 3. Оптимизируем типографику */
     body {
         font-size: 13px;
         line-height: 1.43;
+        font-family: "Open Sans", sans-serif; !important; /* <--- ДОБАВЛЕНО НАПОМИНАНИЕ! */
     }
 
-    /* 4. НАША НОВАЯ НАСТРОЙКА ДЛЯ ПОСТОВ! */
-    .full-post {
-        padding: 15px; /* Уменьшаем отступы на мобильных, чтобы дать тексту больше места */
+
+ /* --- Ступень 2: Для ВЕРТИКАЛЬНЫХ смартфонов --- */
+@media (max-width: 768px) {
+
+    /* Макет */
+    .main-layout { flex-direction: column; }
+    .main-content, .sidebar { width: 100%; min-width: unset; }
+
+    /* Типографика */
+    body {
+        font-size: 13px;   /* Подставь свои значения */
+        line-height: 1.43; /* Подставь свои значения */
+       font-family: "Open Sans", sans-serif; !important; /* <--- ДОБАВЛЕНО НАПОМИНАНИЕ! */
     }
+
+    /* Отступы */
+    .full-post { padding: 15px; }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
