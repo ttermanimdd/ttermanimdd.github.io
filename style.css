@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Общие стили */
+
+
+body, h1, h2, h3, p, a, li, span, div {
+    font-family: "Open Sans", sans-serif; /* НЕ ЗАБУДЬ ВСТАВИТЬ СЮДА НАЗВАНИЕ СВОЕГО ШРИФТА! */
+}
+
+
 body {
-    font-family: "Open Sans", sans-serif;
     line-height: 1.6;
     margin: 0;
     background-color: #000F00;
@@ -250,6 +256,7 @@ img {
         padding: 15px; /* Уменьшаем отступы на мобильных, чтобы дать тексту больше места */
     }
 }
+
 
 
 
